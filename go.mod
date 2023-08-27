@@ -1,4 +1,4 @@
-module github.com/summit-fi/lib-go-enum/generator
+module github.com/summit-fi/lib-go-enum
 
 go 1.20
 
