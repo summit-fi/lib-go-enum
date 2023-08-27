@@ -1,4 +1,4 @@
-module github.com/abice/go-enum
+module github.com/summit-fi/lib-go-enum/generator
 
 go 1.20
 
