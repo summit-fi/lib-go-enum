@@ -541,6 +541,8 @@ func sanitizeValue(value string) string {
 
 		if unicode.IsLetter(r) || unicode.IsNumber(r) || r == '_' {
 			nameBuilder.WriteRune(r)
+		} else if r == '.' {
+			nameBuilder.WriteRune('_')
 		}
 	}
 
